@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Link from "next/link";
+import SideBar from "../Sidebar";
 
 export default function DashboardLayout({ children, title }) {
   return (
