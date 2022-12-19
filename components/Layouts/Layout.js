@@ -17,10 +17,10 @@ export default function Layout({ children, title }) {
               <a className="text-lg font-bold">Qraft Academy</a>
             </Link>
             <div>
-              <Link href="/cart">
+              <Link href="/apply">
                 <a className="p-2">Apply</a>
               </Link>
-              <Link href="login">
+              <Link href="/hire">
                 <a className="p-2">Hire Now</a>
               </Link>
             </div>
