@@ -17,7 +17,7 @@ export default function DashboardLayout({ children, title }) {
         </div>
         <div className="w-4/5 ">
           <AdminHeader />
-          <main className="bg-gray-100 py-5 px-5 pb-20">{children}</main>
+          <main className="py-5 px-5 pb-20">{children}</main>
         </div>
       </div>
     </>
