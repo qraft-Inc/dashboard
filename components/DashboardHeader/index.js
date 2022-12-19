@@ -1,13 +1,4 @@
-import React, { useState, Fragment } from "react";
-import { useRouter } from "next/router";
-import { Menu, Transition, Dialog } from "@headlessui/react";
-
-import {
-  UserCircleIcon,
-  CheckCircleIcon,
-  InformationCircleIcon,
-  XCircleIcon,
-} from "@heroicons/react/solid";
+import React from "react";
 
 // eslint-disable-next-line react/display-name
 const AdminHeader = () => {
