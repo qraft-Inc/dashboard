@@ -74,8 +74,8 @@ const SideBar = () => {
   ];
   return (
     <div className="sticky top-0 flex flex-col bg-gray-800">
-      <Link href="/" passHref>
-        <a className="flex justify-center wrap px-5 py-5">
+      <Link href="/dashboard" passHref>
+        <a className="flex justify-center wrap px-15 py-5">
           <Image
             className="h-5 w-5 cursor-pointer bg-white"
             layout="fixed"
@@ -84,7 +84,6 @@ const SideBar = () => {
             src={"/favicon.ico"}
             alt="user-logo"
           />
-     
         </a>
       </Link>
       <div className="primary-menu flex flex-col py-3 px-3 space-y-5">
