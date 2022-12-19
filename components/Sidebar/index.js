@@ -40,18 +40,24 @@ const SideBar = () => {
   ];
   return (
     <div className="sticky top-0 flex flex-col bg-gray-800">
-      <Link href="/dashboard" passHref>
-        <a className="flex justify-center wrap px-15 py-5">
-          <Image
-            className="h-5 w-5 cursor-pointer bg-white"
-            layout="fixed"
-            height={50}
-            width={50}
-            src={"/favicon.ico"}
-            alt="user-logo"
-          />
-        </a>
-      </Link>
+      <div className="flex justify-center my-10">
+        <div>
+          <Link href="/dashboard" passHref>
+            <a>
+              <Image
+                className="h-5 w-5 cursor-pointer bg-white"
+                layout="fixed"
+                height={50}
+                width={50}
+                src={"/favicon.ico"}
+                alt="user-logo"
+              />
+            </a>
+          </Link>
+          <h2 className="text-white">Phillip Mambo</h2>
+          <h2 className="text-white">Software Developer</h2>
+        </div>
+      </div>
       <div className="primary-menu flex flex-col py-3 px-3 space-y-5">
         {menuItems.map((item) => (
           <Link key={item.url} href={item.url}>
