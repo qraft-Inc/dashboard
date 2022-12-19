@@ -75,18 +75,16 @@ const SideBar = () => {
   return (
     <div className="sticky top-0 flex flex-col bg-gray-800">
       <Link href="/" passHref>
-        <a className="flex justify-between wrap px-5 py-5">
+        <a className="flex justify-center wrap px-5 py-5">
           <Image
             className="h-5 w-5 cursor-pointer bg-white"
             layout="fixed"
             height={50}
             width={50}
             src={"/favicon.ico"}
-            alt="unmc-logo"
+            alt="user-logo"
           />
-          <span className="font-bold sm:text-2xl  md:text-3xl lg:text-5xl text-teal-600">
-            UNMC
-          </span>
+     
         </a>
       </Link>
       <div className="primary-menu flex flex-col py-3 px-3 space-y-5">
