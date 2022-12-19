@@ -12,7 +12,7 @@ export default function DashboardLayout({ children, title }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex">
-        <div className="relative w-1/5 bg-gray-800 min-h-screen">
+        <div className="relative w-1/5 bg-[#020916] min-h-screen">
           <SideBar />
         </div>
         <div className="w-4/5 ">

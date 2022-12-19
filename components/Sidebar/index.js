@@ -39,7 +39,7 @@ const SideBar = () => {
     },
   ];
   return (
-    <div className="sticky top-0 flex flex-col bg-gray-800">
+    <div className="sticky top-0 flex flex-col bg-[#020916]">
       <div className="flex justify-center my-10">
         <div>
           <Link href="/dashboard" passHref>
@@ -64,8 +64,8 @@ const SideBar = () => {
             <a>
               <div
                 className={`${
-                  router.pathname === item.url && `bg-gray-900`
-                } flex space-x-3 items-center hover:bg-gray-900 py-3 px-3 rounded transition-all`}
+                  router.pathname === item.url && `bg-[#020916]`
+                } flex space-x-3 items-center hover:bg-[#020916] py-3 px-3 rounded transition-all`}
               >
                 {item.icon}
                 <span className="text-base font-medium text-gray-300">
