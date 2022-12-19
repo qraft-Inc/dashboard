@@ -5,7 +5,7 @@ const Dashboard = () => {
 };
 
 Dashboard.getLayout = function getLayout(page) {
-  return <DashboardLayout title="Add Training School">{page}</DashboardLayout>;
+  return <DashboardLayout title="Dashboard">{page}</DashboardLayout>;
 };
 
 export default Dashboard;
