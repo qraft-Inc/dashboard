@@ -38,38 +38,21 @@ const SideBar = () => {
         <SearchCircleIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
       ),
       label: "Track Progress",
-      url: "/interviews",
+      url: "/dashboard/track-progress",
     },
     {
       icon: (
         <CalendarIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
       ),
-      label: "Schedules",
-      url: "/schedules",
+      label: "Talk to a Mentor",
+      url: "/dashboard/mentors",
     },
     {
       icon: (
         <CreditCardIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
       ),
-      label: "Payments",
-      url: "/payments",
-    },
-    {
-      icon: (
-        <AcademicCapIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
-      label: "Training Schools",
-      url: "/schools",
-    },
-    {
-      icon: <UsersIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
-      label: "Users",
-      url: "/users",
-    },
-    {
-      icon: <CogIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
-      label: "Settings",
-      url: "/settings",
+      label: "My Portfolio",
+      url: "/dashboard/portfolio",
     },
   ];
   return (
