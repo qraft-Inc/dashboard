@@ -64,8 +64,8 @@ const SideBar = () => {
             <a>
               <div
                 className={`${
-                  router.pathname === item.url && `bg-[#020916]`
-                } flex space-x-3 items-center hover:bg-[#020916] py-3 px-3 rounded transition-all`}
+                  router.pathname === item.url && `bg-gray-600`
+                } flex space-x-3 items-center hover:bg-gray-600 py-3 px-3 rounded transition-all`}
               >
                 {item.icon}
                 <span className="text-base font-medium text-gray-300">
