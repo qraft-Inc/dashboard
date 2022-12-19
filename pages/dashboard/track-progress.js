@@ -30,18 +30,54 @@ const TrackProgress = () => {
     },
   ];
 
+  const tasks = [
+    {
+      id: 1,
+      dueDate: "25th Jan 2022",
+      task: "Fix the home page sign in error message that keeps popping up all the time ",
+    },
+    {
+      id: 2,
+      dueDate: "25th Jan 2022",
+      task: "Fix the home page sign in error message that keeps popping up all the time ",
+    },
+    {
+      id: 3,
+      dueDate: "25th Jan 2022",
+      task: "Fix the home page sign in error message that keeps popping up all the time ",
+    },
+    {
+      id: 4,
+      dueDate: "25th Jan 2022",
+      task: "Fix the home page sign in error message that keeps popping up all the time ",
+    },
+  ];
+
+  const CardComponent = () => {
+    return (
+      <div className="w-[250px] border-2 p-2 my-8">
+        <p className="">
+          {" "}
+          Fix the home page sign in error message that keeps popping up all the
+          time{" "}
+        </p>
+        <span>Due Date: 25th Jan 2022</span>
+      </div>
+    );
+  };
   return (
     <div>
       <h2 className="text-blue-800">Learning Calender</h2>
       <p>Tasks</p>
-      <div className="flex justify-between">
+      <div className="flex justify-between my-4 ">
         {meta.map(({ id, bgColor, text }) => {
           return (
-            <div className="my-4 " key={id}>
+            <div className="" key={id}>
               <span className={`${bgColor} py-4 px-6`}>{text}</span>
+              <CardComponent />
             </div>
           );
-        })}
+        })}{" "}
       </div>
     </div>
   );
