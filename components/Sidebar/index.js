@@ -5,11 +5,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
-// Assets
-import logo from "/public/logo.png";
-
 // ICONS
-import { HomeIcon, UserGroupIcon,UsersIcon, CreditCardIcon, CalendarIcon , SearchCircleIcon,AcademicCapIcon, CogIcon} from "@heroicons/react/solid";
+import {
+  HomeIcon,
+  UserGroupIcon,
+  UsersIcon,
+  CreditCardIcon,
+  CalendarIcon,
+  SearchCircleIcon,
+  AcademicCapIcon,
+  CogIcon,
+} from "@heroicons/react/solid";
 
 // eslint-disable-next-line react/display-name
 const SideBar = () => {
@@ -56,20 +62,15 @@ const SideBar = () => {
       url: "/schools",
     },
     {
-      icon: (
-        <UsersIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
+      icon: <UsersIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "Users",
       url: "/users",
     },
     {
-      icon: (
-        <CogIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
+      icon: <CogIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "Settings",
       url: "/settings",
     },
-    
   ];
   return (
     <div className="sticky top-0 flex flex-col bg-gray-800">
@@ -80,7 +81,7 @@ const SideBar = () => {
             layout="fixed"
             height={50}
             width={50}
-            src={logo}
+            src={"/favicon.ico"}
             alt="unmc-logo"
           />
           <span className="font-bold sm:text-2xl  md:text-3xl lg:text-5xl text-teal-600">

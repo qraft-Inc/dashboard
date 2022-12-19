@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 import SideBar from "../Sidebar";
+import AdminHeader from "../DashboardHeader";
 
 export default function DashboardLayout({ children, title }) {
   return (
@@ -16,7 +17,7 @@ export default function DashboardLayout({ children, title }) {
           <SideBar />
         </div>
         <div className="w-4/5 ">
-          <Header />
+          <AdminHeader />
           <main className="bg-gray-100 py-5 px-5 pb-20">{children}</main>
         </div>
       </div>
