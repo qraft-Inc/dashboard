@@ -1,4 +1,4 @@
-import React, { useState, Fragment, forwardRef } from "react";
+import React from "react";
 
 // Next
 import Image from "next/image";
