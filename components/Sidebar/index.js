@@ -6,16 +6,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 // ICONS
-import {
-  HomeIcon,
-  UserGroupIcon,
-  UsersIcon,
-  CreditCardIcon,
-  CalendarIcon,
-  SearchCircleIcon,
-  AcademicCapIcon,
-  CogIcon,
-} from "@heroicons/react/solid";
+import { HomeIcon } from "@heroicons/react/solid";
 
 // eslint-disable-next-line react/display-name
 const SideBar = () => {
@@ -27,30 +18,22 @@ const SideBar = () => {
       url: "/dashboard",
     },
     {
-      icon: (
-        <UserGroupIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
+      icon: <HomeIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "Complete Task",
       url: "/dashboard/complete-task",
     },
     {
-      icon: (
-        <SearchCircleIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
+      icon: <HomeIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "Track Progress",
       url: "/dashboard/track-progress",
     },
     {
-      icon: (
-        <CalendarIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
+      icon: <HomeIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "Talk to a Mentor",
       url: "/dashboard/mentors",
     },
     {
-      icon: (
-        <CreditCardIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
-      ),
+      icon: <HomeIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "My Portfolio",
       url: "/dashboard/portfolio",
     },
