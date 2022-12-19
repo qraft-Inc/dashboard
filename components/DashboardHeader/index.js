@@ -8,15 +8,13 @@ import {
   InformationCircleIcon,
   XCircleIcon,
 } from "@heroicons/react/solid";
-import Button from "@/components/Button";
-import Modal from "@/components/Modal";
 
 // eslint-disable-next-line react/display-name
 const AdminHeader = () => {
   const router = useRouter();
   const [user, setUser] = useLocalStorage("user", {});
   // const { notifications } = useNotifications();
-  
+
   const [logOutDialogOpen, setLogOutDialogOpen] = useState(false);
   // console.log(notifications);
   const logout = () => {
@@ -47,7 +45,7 @@ const AdminHeader = () => {
     <div>
       <header className="bg-white h-[75px] flex px-3 py-3 items-center justify-end shadow">
         <div className="flex space-x-6 items-center">
-          <NotificationBar/>
+          <NotificationBar />
           {/* <Menu>
             <Menu.Button className="flex space-x-5 items-center px-3 py-3 group hover:bg-gray-100 hover:rounded-lg">
               <BellIcon className="h-6 w-6 text-gray-500 hover:text-teal-600" />{" "}
