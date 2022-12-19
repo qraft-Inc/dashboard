@@ -24,20 +24,20 @@ const SideBar = () => {
     {
       icon: <HomeIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />,
       label: "Dashboard",
-      url: "/",
+      url: "/dashboard",
     },
     {
       icon: (
         <UserGroupIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
       ),
-      label: "Registrations",
-      url: "/registrations",
+      label: "Complete Task",
+      url: "/dashboard/complete-task",
     },
     {
       icon: (
         <SearchCircleIcon className="h-7 w-7 text-gray-300 hover:text-teal-400" />
       ),
-      label: "Assessment",
+      label: "Track Progress",
       url: "/interviews",
     },
     {
